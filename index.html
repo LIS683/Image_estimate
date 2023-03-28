@@ -4,7 +4,7 @@
 <head>
 
 <meta charset="utf-8">
-<title>Analizador de lesiones en la piel</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Online image analyzer of the three most likely diagnoses for a skin lesion.">
 
@@ -25,12 +25,15 @@
 <!--Hojas de estilo CSS-->
 <link rel="stylesheet" href="css/w3.css">
 <link rel="stylesheet" href="css/bee.css">
+<h1 style="background-color:#1690b5;">Clasificador de lesiones de Piel</h1>
+<body style="background-color:powderblue;">
+
 
 <!--Link a los iconos de Font Awesome-->
 <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.4.2/css/all.css' integrity='sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns' crossorigin='anonymous'>
 
 <!--Enlace a fuentes de google fonts-->
-<link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 <link rel="shortcut icon" type="image/png" href="logoinub2.jpg">
 
 
@@ -93,12 +96,12 @@ y se envuelve alrededor de todo el contenido de la página. -->
 
 <div class="w3-center title adjust-fontcolor logo">
 	<div class="w3-center">
-	<img class="w3-round adjust-image" src="assets/logoinub.jpg" width="150" alt=""> 
+	<img class="w3-round adjust-image" src="assets/logoinub.jpg" width="200" alt=""> 
 </div> 
 	
-  <h1 class="space-letters w3-text-green"><b>Analizador de lesiones en la piel</b></h1>
+
   
-  <h3 class="space-letters w3-text-green"><b>Analizador de imágenes en línea de los tres diagnósticos más probables para una lesión en la piel</b></h3>
+  <h3 class="space-letters w3-text-blue"><b>Analizador de imágenes en línea de los tres diagnósticos más probables para una lesión en la piel</b></h3>
   
 </div>
 
@@ -119,7 +122,7 @@ y se envuelve alrededor de todo el contenido de la página. -->
 </div>
 
 
-<div class="w3-center add-padding w3-border add-margin side-margin w3-round w3-pale-blue">
+<div class="w3-center add-padding w3-border add-margin side-margin w3-round w3-pale-yellow">
 		
 	<h5 class='new-font'>Resultados</h5>
 	<ol class='w3-left-align' id='prediction-list'></ol>
@@ -140,11 +143,11 @@ apertura de camara o realice un llamado al método simulateClick()-->
 </div><!--Final del Home Page, documente los resultados obtenidos del modelo, a saber, Exactitud, Precisión y Sencibilidad, dando créditos a la base de datos trabajada-->
 
 <div class='w3-padding'>
-	<h5 class="space-letters tag-font w3-text-green"><b>Caracteristicas técnicas del Modelo:</b></h5>
-	<h5 class="space-letters tag-font w3-text-green"><b>- Exactitud: 0.97 </b></h5>
-	<h5 class="space-letters tag-font w3-text-green"><b>- Precisión: 0.97 </b></h5>
-	<h5 class="space-letters tag-font w3-text-green"><b>- Sencibilidad: 0.97 </b></h5>
-	<h6 class="space-letters tag-font w3-text-green"><b>El entrenamiento del modelo está basado en el conjunto de 10015 imágenes dermatoscópicas de Harvard, entrenado con Tensorflow</b></h6>
+	<h5 class="space-letters tag-font w3-text-blue"><b>Caracteristicas técnicas del Modelo:</b></h5>
+	<h5 class="space-letters tag-font w3-text-blue"><b>- Exactitud: 0.97 </b></h5>
+	<h5 class="space-letters tag-font w3-text-blue"><b>- Precisión: 0.97 </b></h5>
+	<h5 class="space-letters tag-font w3-text-blue"><b>- Sencibilidad: 0.97 </b></h5>
+	<h6 class="space-letters tag-font w3-text-blue"><b>El entrenamiento del modelo está basado en el conjunto de 10015 imágenes dermatoscópicas de Harvard, entrenado con Tensorflow</b></h6>
 </div>
 
 <!-- Simulamos clics en estos dos botones de carga inicial. -->
@@ -183,4 +186,3 @@ apertura de camara o realice un llamado al método simulateClick()-->
 </div>
 </body>
 </html>
-
