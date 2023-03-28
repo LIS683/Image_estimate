@@ -1,6 +1,3 @@
-// Después de cargar el modelo queremos hacer una predicción sobre la imagen por defecto.
-// Así, el usuario verá las predicciones cuando se cargue la página por primera vez.
-
 function simulateClick(tabID) {
 	
 	document.getElementById(tabID).click();
@@ -111,10 +108,6 @@ top5.forEach(function (p) {
 	
 	
 });
-
-
-
-
 
 
 
